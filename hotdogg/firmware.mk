@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),hotdog)
+ifeq ($(TARGET_DEVICE),hotdogg)
 
 RADIO_FILES := $(wildcard $(LOCAL_PATH)/radio/*)
 $(foreach f, $(notdir $(RADIO_FILES)), \
